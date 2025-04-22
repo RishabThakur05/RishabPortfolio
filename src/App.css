@@ -1,0 +1,93 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Clean up default styles that might be conflicting */
+#root {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.main-content {
+  flex: 1;
+  width: 100%;
+}
+
+section {
+  min-height: 100vh;
+  padding-top: 80px; /* Adjust based on your navbar height */
+  scroll-margin-top: 80px; /* For smooth scrolling with fixed header */
+  width: 100%;
+}
+
+#home {
+  min-height: 100vh;
+}
+
+#projects, #certifications, #contact {
+  padding: 100px 0;
+}
+
+/* Remove any conflicting styles */
+.card {
+  padding: 0;
+}
+
+/* Ensure footer displays properly */
+.footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--primary-color);
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  width: 100%;
+}

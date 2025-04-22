@@ -1,0 +1,91 @@
+.projects {
+  padding: 100px 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.sectionTitle {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: var(--text-primary);
+  margin-bottom: 3rem;
+}
+
+.number {
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4rem;
+}
+
+.card {
+  position: relative;
+  background-color: var(--background-light);
+  border-radius: 4px;
+  padding: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.projectOverline {
+  color: var(--secondary-color);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.projectTitle {
+  color: var(--text-primary);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.projectDescription {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.tech span {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+
+.projectLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+.projectLinks a {
+  color: var(--text-primary);
+  font-size: 1.2rem;
+}
+
+.projectLinks a:hover {
+  color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+  .grid {
+    gap: 2rem;
+  }
+}
