@@ -2,12 +2,15 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  padding: 0 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
+  justify-content: center;
+  padding: 0;
+  width: 100%;
 }
 
 .content {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 2rem;
   margin-top: 4rem;
   display: flex;
   align-items: center;
@@ -17,6 +20,9 @@
 
 .textContent {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .greeting {
@@ -157,10 +163,16 @@
   .content {
     flex-direction: column-reverse;
     text-align: center;
+    padding: 0 1.5rem;
+  }
+  
+  .textContent {
+    align-items: center;
   }
   
   .description {
     margin: 0 auto 2rem;
+    text-align: center;
   }
   
   .socialIcons {

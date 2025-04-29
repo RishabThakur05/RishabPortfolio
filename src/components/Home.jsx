@@ -9,7 +9,7 @@ const Home = () => {
         <div className={styles.textContent}>
           <p className={styles.greeting}>Hi, my name is</p>
           <h1 className={styles.name}>Abhinav Singh.</h1>
-          <h2 className={styles.tagline}>I build things for the web.</h2>
+          <h2 className={styles.tagline}>Full Stack Developer</h2>
           <p className={styles.description}>
             I'm a full-stack developer specializing in building exceptional digital experiences.
             Currently, I'm a BTech CSE student at Lovely Professional University focused on

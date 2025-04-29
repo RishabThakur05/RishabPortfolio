@@ -1,0 +1,123 @@
+.skills {
+  min-height: auto;
+  padding: 20px 0;
+  background-color: var(--bg-primary);
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
+  position: relative;
+}
+
+.title::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 2px;
+  background-color: var(--secondary-color);
+  margin: 0.5rem auto 0;
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.skillCategory {
+  background: var(--bg-secondary);
+  padding: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+  transition: all 0.3s ease;
+  border: 1px solid var(--secondary-color);
+}
+
+.skillCategory:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 30px -15px rgba(2, 12, 27, 0.7);
+}
+
+.categoryTitle {
+  font-size: 1.5rem;
+  color: var(--text-primary);
+  margin-bottom: 0.8rem;
+  text-align: center;
+  position: relative;
+}
+
+.categoryTitle::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 1px;
+  background-color: var(--secondary-color);
+  margin: 0.3rem auto 0;
+}
+
+.skillsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.skillItem {
+  background: rgba(100, 255, 218, 0.1);
+  padding: 0.3rem 0.7rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  color: var(--secondary-color);
+  transition: all 0.3s ease;
+  border: 1px solid var(--secondary-color);
+}
+
+.skillItem:hover {
+  background: var(--secondary-color);
+  color: var(--bg-primary);
+  transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  .skills {
+    padding: 20px 0;
+  }
+
+  .title {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .skillsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .skillCategory {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .categoryTitle {
+    font-size: 1.3rem;
+  }
+
+  .skillItem {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.6rem;
+  }
+} 

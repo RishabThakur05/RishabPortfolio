@@ -1,0 +1,144 @@
+.education {
+  padding: 80px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  color: var(--text-primary);
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.educationList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.educationItem {
+  background: var(--background-light);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+}
+
+.educationItem:hover {
+  transform: translateY(-10px);
+}
+
+.content {
+  padding: 25px;
+}
+
+.degree {
+  color: var(--text-primary);
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.university {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.duration {
+  color: var(--secondary-color);
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.universityLogo {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  margin: 20px auto 0;
+  display: block;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.universityLogo:hover {
+  transform: scale(1.05);
+}
+
+.schoolInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.schoolLevel {
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.schoolLevel:hover {
+  transform: translateX(10px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.levelName {
+  color: var(--text-primary);
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.year {
+  color: var(--secondary-color);
+  font-size: 1rem;
+}
+
+.divider {
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--secondary-color),
+    transparent
+  );
+  margin: 10px 0;
+  opacity: 0.3;
+}
+
+@media (max-width: 768px) {
+  .education {
+    padding: 60px 0;
+  }
+
+  .sectionTitle {
+    font-size: 2rem;
+  }
+
+  .educationList {
+    grid-template-columns: 1fr;
+  }
+
+  .degree {
+    font-size: 1.3rem;
+  }
+
+  .university {
+    font-size: 1rem;
+  }
+
+  .levelName {
+    font-size: 1rem;
+  }
+
+  .universityLogo {
+    max-width: 220px;
+  }
+} 
