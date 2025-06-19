@@ -5,21 +5,21 @@ import lpuLogo from '../assets/lpu.jpg';
 const Education = () => {
   const educationData = {
     university: {
-      degree: "B.Tech, CSE",
+      degree: "B.Tech in Computer Science Engineering",
       institution: "Lovely Professional University, Phagwara, Punjab",
-      duration: "(2022-2026)",
+      duration: "2022-2026",
       logo: lpuLogo
     },
     school: {
-      name: "St. Patricks's Sr. Sec School, Jaunpur",
+      name: "Sacred Heart School, Lucknow",
       levels: [
         {
-          name: "Higher Secondary (XII)",
-          year: "2021"
+          name: "12th Standard",
+          year: "2020"
         },
         {
-          name: "Secondary (X)",
-          year: "2019"
+          name: "10th Standard",
+          year: "2018"
         }
       ]
     }

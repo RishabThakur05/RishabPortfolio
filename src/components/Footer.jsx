@@ -23,10 +23,10 @@ const Footer = () => {
 
     // Replace these with your actual EmailJS service ID, template ID, and public key
     emailjs.sendForm(
-      'service_5qxxdqi', 
-      'template_1i62nvt', 
+      'service_erpwp2m', 
+      'template_b74cfsm', 
       formRef.current, 
-      'QAfZs1EobRowO2HHV'
+      'jMQWlaQsqsuEdUVsk'
     )
       .then((result) => {
         setFormStatus({ submitting: false, submitted: true, error: null });
@@ -77,7 +77,7 @@ const Footer = () => {
         
         <div className={styles.footerContent}>
           <div className={styles.footerLogo}>
-            <span className={`${styles.logo} ${styles.tiltEffect}`}>AS</span>
+            <span className={`${styles.logo} ${styles.tiltEffect}`}>RT</span>
           </div>
           
           <div className={styles.footerLinks}>
@@ -90,30 +90,30 @@ const Footer = () => {
             
             <div className={styles.linkColumn}>
               <h3>Contact Info</h3>
-              <p><i className="fas fa-envelope"></i> abhinavsingh6574@gmail.com</p>
-              <p><i className="fas fa-phone"></i> +91 8853490243</p>
-              <p><i className="fas fa-map-marker-alt"></i> Lovely Professional University, Punjab</p>
+              <p><i className="fas fa-envelope"></i> rishabthakur665@gmail.com</p>
+              <p><i className="fas fa-phone"></i> +91 6387989439</p>
+              <p><i className="fas fa-map-marker-alt"></i> Lucknow</p>
             </div>
           </div>
           
           <div className={styles.socialIcons}>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className={styles.floatEffect}>
+            <a href="https://github.com/RishabThakur05" target="_blank" rel="noopener noreferrer" className={styles.floatEffect}>
               <i className="fab fa-github"></i>
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className={styles.floatEffect}>
+            <a href="https://linkedin.com/in/rishabthakur05/" target="_blank" rel="noopener noreferrer" className={styles.floatEffect}>
               <i className="fab fa-linkedin-in"></i>
             </a>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className={styles.floatEffect}>
               <i className="fab fa-twitter"></i>
             </a>
-            <a href="mailto:example@gmail.com" className={styles.floatEffect}>
+            <a href="mailto:rishabthakur665@gmail.com" className={styles.floatEffect}>
               <i className="fas fa-envelope"></i>
             </a>
           </div>
         </div>
         
         <div className={styles.footerBottom}>
-          <p>&copy; {new Date().getFullYear()} Abhinav Singh. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Rishab Thakur. All rights reserved.</p>
           <p className={styles.designedBy}>Designed & Built with <span className={styles.heart}>❤</span></p>
         </div>
       </div>

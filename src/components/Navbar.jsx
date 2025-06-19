@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import styles from './Navbar.module.css'
-import resumePDF from '../assets/resumeAbhinav.pdf'
+import resumePDF from '../assets/GeneralCVrisihabFinal.pdf'
 import { FaBars, FaTimes } from 'react-icons/fa'
 
 const Navbar = () => {
@@ -33,7 +33,7 @@ const Navbar = () => {
     <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ''}`}>
       <div className={styles.container}>
         <a href="#home" className={styles.logo} onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>
-          <span className={styles.logoText}>Abhinav Singh</span>
+          <span className={styles.logoText}>Rishab Thakur</span>
         </a>
 
         <button className={styles.menuButton} onClick={toggleMenu}>

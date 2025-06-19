@@ -1,31 +1,34 @@
 import { Link } from 'react-router-dom'
 import styles from './Home.module.css'
-import profileImage from '../assets/profile.jpg'
+import profileImage from '../assets/RishabPhoto.jpg'
+import { useEffect } from 'react'
 
 const Home = () => {
+  useEffect(() => {
+    document.title = 'Rishab Thakur';
+  }, []);
+
   return (
     <div className={styles.home}>
       <div className={styles.content}>
         <div className={styles.textContent}>
           <p className={styles.greeting}>Hi, my name is</p>
-          <h1 className={styles.name}>Abhinav Singh.</h1>
-          <h2 className={styles.tagline}>Full Stack Developer</h2>
+          <h1 className={styles.name}>Hi, I'm Rishab Thakur</h1>
+          <h2 className={styles.tagline}>Full Stack Web Developer | B.Tech CSE Student at LPU</h2>
           <p className={styles.description}>
-            I'm a full-stack developer specializing in building exceptional digital experiences.
-            Currently, I'm a BTech CSE student at Lovely Professional University focused on
-            creating accessible, human-centered products.
+            I am a passionate web developer currently pursuing a B.Tech in Computer Science at Lovely Professional University, Phagwara. I am a motivated and results-driven Computer Science and Engineering graduate seeking a challenging position as a Web Developer within a large organization. I offer a strong foundation in Java, C++, Data Structures and Algorithms, React.js, Node.js, PHP, MongoDB, data analysis, and project management. I have a proven ability to drive efficiency, deliver successful outcomes, and collaborate within cross-functional teams.
           </p>
           <div className={styles.socialIcons}>
-            <a href="https://github.com/Abhinav0243" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/RishabThakur05" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github"></i>
             </a>
-            <a href="https://www.linkedin.com/in/abhinav-singh-81069624b/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/rishabthakur05/" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-linkedin-in"></i>
             </a>
-            <a href="tel:+918853490243" target="_blank" rel="noopener noreferrer">
+            <a href="tel:+916387989439" target="_blank" rel="noopener noreferrer">
               <i className="fas fa-phone"></i>
             </a>
-            <a href="mailto:abhinavsingh6574@gmail.com">
+            <a href="mailto:rishabthakur665@gmail.com">
               <i className="fas fa-envelope"></i>
             </a>
           </div>
@@ -40,7 +43,7 @@ const Home = () => {
         </div>
         <div className={styles.imageContainer}>
           <div className={`${styles.imageWrapper} ${styles.tiltEffect}`}>
-            <img src={profileImage} alt="Abhinav Singh" className={styles.profileImage} />
+            <img src={profileImage} alt="Rishab Thakur" className={styles.profileImage} />
           </div>
         </div>
       </div>

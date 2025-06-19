@@ -4,24 +4,31 @@ import styles from './Skills.module.css';
 const Skills = () => {
   const skills = [
     {
-      category: 'Frontend Development',
-      items: ['HTML5', 'CSS3', 'JavaScript', 'React']
+      category: 'Languages',
+      items: ['JavaScript', 'Java', 'C++', 'Python', 'SQL', 'Kotlin', 'XML']
     },
     {
-      category: 'Backend Development',
-      items: ['Node.js', 'Express', 'Python',  'RESTful APIs', 'MongoDB']
+      category: 'Databases',
+      items: ['PostgreSQL', 'MongoDB', 'Power BI']
     },
     {
-      category: 'Tools & Technologies',
-      items: ['Git', 'GitHub', 'VS Code', 'Postman']
+      category: 'Frameworks & Libraries',
+      items: ['React.js', 'Node.js']
     },
-    
+    {
+      category: 'Technical Skills',
+      items: ['DSA', 'Database Management Systems (DBMS)', 'Problem-Solving']
+    },
+    {
+      category: 'Soft Skills',
+      items: ['Problem-solving', 'Code optimization', 'Effective collaboration in development teams']
+    },
   ];
 
   return (
     <section id="skills" className={styles.skills}>
       <div className={styles.container}>
-        <h2 className={styles.title}>Technical Skills</h2>
+        <h2 className={styles.title}>Skills</h2>
         <div className={styles.skillsGrid}>
           {skills.map((skill, index) => (
             <div key={index} className={styles.skillCategory}>

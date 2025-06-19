@@ -8,28 +8,28 @@ const Projects = () => {
       title: "Fitness Gym Website",
       description: "A modern gym website showcasing fitness services, membership plans, and training programs with a responsive design for all devices.",
       tech: ["React", "CSS", "JavaScript", "Responsive Design"],
-      github: "https://github.com/Abhinav0243/Fitness",
+      github: "https://github.com/RishabThakur05",
       external: "https://gym-one-self.vercel.app/",
     },
     {
       title: "Grocery E-commerce",
       description: "An online grocery shopping platform with product catalog, cart functionality, and seamless checkout process.",
       tech: ["React", "Next.js", "CSS", "E-commerce"],
-      github: "https://github.com/Abhinav0243/Grocery-Rishab",
+      github: "https://github.com/RishabThakur05",
       external: "https://grocery-rishab.vercel.app/",
     },
     {
       title: "E-commerce Platform",
       description: "A full-featured e-commerce website with product listings, shopping cart, and user-friendly interface.",
       tech: ["React", "MongoDB","NodeJs" ,"CSS", "Shopping Cart"],
-      github: "https://github.com/Abhinav0243/cartt",
+      github: "https://github.com/RishabThakur05",
       external: "https://cartt-two.vercel.app/",
     },
     {
       title: "Weather Forecast App",
       description: "A weather application providing real-time weather information and forecasts with a clean, intuitive interface.",
       tech: ["React", "Weather API", "CSS", "JavaScript"],
-      github: "https://github.com/Abhinav0243/Weather-Forecast",
+      github: "https://github.com/RishabThakur05",
       external: "https://rishabweather-forecast.vercel.app/",
     }
   ];
