@@ -12,7 +12,7 @@ const Home = () => {
     <div className={styles.home}>
       <div className={styles.content}>
         <div className={styles.textContent}>
-          <p className={styles.greeting}>Hi, my name is</p>
+       
           <h1 className={styles.name}>Hi, I'm Rishab Thakur</h1>
           <h2 className={styles.tagline}>Full Stack Web Developer | B.Tech CSE Student at LPU</h2>
           <p className={styles.description}>
